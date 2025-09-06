@@ -28514,6 +28514,19 @@
                             "type": "string"
                         },
                         "description": "List of tool IDs to use for generated evaluators"
+                    },
+                    "scenario_type": {
+                        "enum": [
+                            "happy",
+                            "sad",
+                            "toxicity",
+                            "bias",
+                            "jailbreak",
+                            "hallucination",
+                            "None"
+                        ],
+                        "type": "string",
+                        "description": "Type of scenario to generate."
                     }
                 },
                 "required": [
